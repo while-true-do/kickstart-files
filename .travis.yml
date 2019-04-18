@@ -1,0 +1,42 @@
+---
+# name: .travis.yml
+# description: This file tells travis, what needs to be done.
+# author: while-true-do.io
+# contact: hello@while-true-do.io
+# license: BSD-3-Clause
+# reference: https://docs.travis-ci.com/user/customizing-the-build
+
+language: python
+python:
+  - 2.7
+  - 3.6
+
+install:
+  # Install test dependencies.
+  - pip install pykickstart
+
+script:
+  - ksvalidator files/centos-base.ks
+  - ksvalidator files/centos-secure.ks
+  - ksvalidator files/fedora-base.ks
+  - ksvalidator files/fedora-secure.ks
+
+notifications:
+  email:
+    recipients:
+      - devel@while-true-do.io
+    on_success: never
+    on_failure: always
+
+  irc:
+    channels:
+      - "chat.freenode.net#while-true-do"
+    on_success: always
+    on_failure: always
+
+  webhooks:
+    urls:
+      - https://galaxy.ansible.com/api/v1/notifications/
+    on_success: always
+    on_failure: always
+    on_pull_requests: false

@@ -37,11 +37,13 @@ or partitioning is recommended.
 #### CentOS
 
 -   [Base Example](files/centos-base.ks)
+-   [KVM Example](files/centos-kvm.ks)
 -   [Secure Example](files/centos-secure.ks)
 
 #### Fedora
 
 -   [Base Example](files/fedora-base.ks)
+-   [KVM Example](files/fedora-kvm.ks)
 -   [Secure Example](files/fedora-secure.ks)
 
 ### Kickstart snippets

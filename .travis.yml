@@ -20,8 +20,10 @@ install:
 
 script:
   - ksvalidator files/centos-base.ks
+  - ksvalidator files/centos-kvm.ks
   - ksvalidator files/centos-secure.ks
   - ksvalidator files/fedora-base.ks
+  - ksvalidator files/fedora-kvm.ks
   - ksvalidator files/fedora-secure.ks
 
 notifications:

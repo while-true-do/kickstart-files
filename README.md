@@ -34,17 +34,23 @@ The files are located in the [files](./files) directory. They can be used "as
 provided". You should consider to tune them to your needs. Changing passwords
 or partitioning is recommended.
 
-#### CentOS
+#### CentOS 7
 
--   [Base Example](files/centos-base.ks)
--   [KVM Example](files/centos-kvm.ks)
--   [Secure Example](files/centos-secure.ks)
+-   [Base Example](files/centos7-base.ks)
+-   [KVM Example](files/centos7-kvm.ks)
+-   [Secure Example](files/centos7-secure.ks)
 
-#### Fedora
+#### Fedora 29
 
--   [Base Example](files/fedora-base.ks)
--   [KVM Example](files/fedora-kvm.ks)
--   [Secure Example](files/fedora-secure.ks)
+-   [Base Example](files/fedora29-base.ks)
+-   [KVM Example](files/fedora29-kvm.ks)
+-   [Secure Example](files/fedora29-secure.ks)
+
+#### Fedora 29
+
+-   [Base Example](files/fedora30-base.ks)
+-   [KVM Example](files/fedora30-kvm.ks)
+-   [Secure Example](files/fedora30-secure.ks)
 
 ### Kickstart snippets
 

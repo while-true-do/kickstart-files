@@ -19,12 +19,15 @@ install:
   - pip install pykickstart
 
 script:
-  - ksvalidator files/centos-base.ks
-  - ksvalidator files/centos-kvm.ks
-  - ksvalidator files/centos-secure.ks
-  - ksvalidator files/fedora-base.ks
-  - ksvalidator files/fedora-kvm.ks
-  - ksvalidator files/fedora-secure.ks
+  - ksvalidator files/centos7-base.ks
+  - ksvalidator files/centos7-kvm.ks
+  - ksvalidator files/centos7-secure.ks
+  - ksvalidator files/fedora29-base.ks
+  - ksvalidator files/fedora29-kvm.ks
+  - ksvalidator files/fedora29-secure.ks
+  - ksvalidator files/fedora30-base.ks
+  - ksvalidator files/fedora30-kvm.ks
+  - ksvalidator files/fedora30-secure.ks
 
 notifications:
   email:

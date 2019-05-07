@@ -46,7 +46,7 @@ or partitioning is recommended.
 -   [KVM Example](files/fedora29-kvm.ks)
 -   [Secure Example](files/fedora29-secure.ks)
 
-#### Fedora 29
+#### Fedora 30
 
 -   [Base Example](files/fedora30-base.ks)
 -   [KVM Example](files/fedora30-kvm.ks)

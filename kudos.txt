@@ -11,10 +11,10 @@ project:
     mail: hello@while-true-do.io
 
 contributors:
-- name: daniel-wtd
-  mail: daniel@while-true-do.io
-  role: Founder / Owner
-  site: https://while-true-do.io
+  - name: daniel-wtd
+    mail: daniel@while-true-do.io
+    role: Founder / Owner
+    site: https://while-true-do.io
 
 partners:
   - name: kudos.txt

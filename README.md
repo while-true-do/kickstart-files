@@ -58,7 +58,7 @@ The snippets are located in the [snippets](./snippets) directory. They can be
 used as a starting point for specific features or ideas.
 
 - [LVM](./snippets/lvm.ks.md)
-- [kdump](./snippers/kdump.ks.md)
+- [kdump](./snippets/kdump.ks.md)
 - [password](./snippets/password.ks.md)
 - [ssh-key](./snippets/ssh-key.ks.md)
 

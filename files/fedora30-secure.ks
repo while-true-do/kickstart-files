@@ -49,9 +49,6 @@ logvol /var/log/audit --fstype="xfs" --size=500 --name=var_log_audit --vgname=vg
 # Reboot the system after installation.
 reboot
 
-%addon com_redhat_kdump --enable --reserve-mb=auto
-%end
-
 %packages
 @core
 %end

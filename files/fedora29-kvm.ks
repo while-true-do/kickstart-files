@@ -33,11 +33,11 @@ autopart --nohome
 # Reboot the system after installation.
 reboot
 
-%packages
+%packages --retries 5
 @core
 libvirt
 qemu-kvm
-qemu-img 
+qemu-img
 %end
 
 services --enabled libvirtd

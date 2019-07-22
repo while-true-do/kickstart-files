@@ -49,7 +49,7 @@ logvol /var/log/audit --fstype="xfs" --size=500 --name=var_log_audit --vgname=vg
 # Reboot the system after installation.
 reboot
 
-%packages
+%packages --retries 5
 @core
 %end
 

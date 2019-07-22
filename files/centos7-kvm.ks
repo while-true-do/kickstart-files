@@ -33,7 +33,7 @@ autopart --nohome
 # Reboot the system after installation.
 reboot
 
-%packages --retries 5
+%packages --retries 5 --timeout 20
 @core
 libvirt
 qemu-kvm

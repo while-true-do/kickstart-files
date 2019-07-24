@@ -17,7 +17,7 @@ timezone Europe/London --isUtc --ntpservers=0.pool.ntp.org
 
 # Network information
 network --bootproto=dhcp --device=eth0 --onboot=on --ipv6=off
-network --hostname=default-vm
+network --hostname=localhost.localdomain
 
 # Root password
 rootpw --lock

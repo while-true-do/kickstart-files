@@ -2,7 +2,8 @@
 text
 
 # Use network installation
-url --url="http://download.fedoraproject.org/pub/fedora/linux/releases/29/Everything/x86_64/os/"
+# url --url http://download.fedoraproject.org/pub/fedora/linux/releases/29/Everything/x86_64/os/
+url --mirrorlist https://mirrors.fedoraproject.org/mirrorlist?repo=fedora-29&arch=x86_64
 
 # Run the Setup Agent on first boot
 firstboot --enable

@@ -2,7 +2,8 @@
 text
 
 # Use network installation
-url --url="http://mirror.centos.org/centos/7/os/x86_64/"
+# url --url= http://mirror.centos.org/centos/7/os/x86_64/
+url --mirror http://mirror.centos.org/centos/7/os/x86_64/
 
 # Run the Setup Agent on first boot
 firstboot --enable
